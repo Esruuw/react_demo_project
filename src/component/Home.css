@@ -1,0 +1,490 @@
+.all {
+
+  }
+.all .firstDiv {
+    height: 640px;
+    background: linear-gradient(to bottom, #000000, #000000, hsl(0, 0%, 0%),  #080808, rgba(180, 98, 3, 0.6));
+    width: 100%;
+}
+  .all .firstDivNav 
+  {
+    color: white;
+    display: flex;
+    margin-left: 5%;
+    gap: 7%;
+  }
+
+  .all .waitlistDiv
+  {
+    color:white(247, 65, 10);
+     margin-left: 40%;
+
+  }
+
+  
+  .all .storyDiv
+  {
+    color: white;
+    margin-left: 30%;
+ }
+
+ .all .fluidAI h1
+ {
+    color: white;
+font-size: 60px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+margin-top: 20%;
+ }
+
+/* ################### */
+
+.boxDiv
+{
+    background: linear-gradient(to bottom, #bb4f07ee, #bb4f07ee, hsl(0, 6%, 80%), #c0bcbcee, #dbd8d6); /* Apply the gradient */
+    margin-top: -4%;
+    
+}
+
+.boxDiv .box1
+{
+    flex: 1;
+    max-width: 200px;
+    height: 250px;
+    border: 0px solid;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 0.65em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    transition: transform 0.3s ease;
+    margin-left: 18%;
+    margin-top: 4%;
+}
+
+
+
+    .boxDiv .box2
+{
+    background-color: #9c6a48;
+    flex: 1;
+    max-width: 170px;
+    height: 90px;
+    border: 0px solid;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.65em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    transition: transform 0.3s ease;
+    border-radius: 0px 15px 15px 0px;
+    margin-top: -5%;
+    color: #fcfcfd;
+}
+
+.boxDiv .box3
+{
+    background-color: #9c6a48;
+
+    flex: 1;
+    max-width: 250px;
+    height: 127px;
+    border: 0px solid;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.65em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    transition: transform 0.3s ease;
+    border-radius: 15px 15px 15px 0px;
+    margin-top: 5%;
+    color: white;
+
+}
+
+.boxDiv .box4
+{
+    background-color: #412919;
+
+    flex: 1;
+    max-width: 280px;
+    height: 100px;
+    border: 0px solid;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.65em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    transition: transform 0.3s ease;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 77%;
+    margin-top: -33%;
+    color: white;
+}
+
+.boxDiv .box5
+{
+    flex: 1;
+    max-width: 200px;
+    height: 160px;
+    border: 0.2px solid;
+    border-radius: 4px;
+    box-shadow: 0px 8px 20px rgb(75, 71, 71);
+    text-align: center;
+    font-size: 0.65em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    transition: transform 0.3s ease;
+    border-radius: 15px 0px 0px 15px;
+    margin-left: 87%;
+    margin-top: 4%;
+
+}
+
+.boxDiv .box6
+{
+    flex: 1;
+    max-width: 110px;
+    height: 35px;
+    border: 0.2px solid;
+    border-radius: 4px;
+    background-color: #412919;
+    text-align: center;
+    font-size: 0.65em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    transition: transform 0.3s ease;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 27%;
+    margin-top: 5%;
+    color: white;
+}
+
+.boxDiv .box7
+
+{
+      flex: 1;
+    max-width: 190px;
+    height: 140px;
+    border: 0.2px solid;
+    border-radius: 4px;
+    background-color: #5e4c40;
+    text-align: center;
+    font-size: 0.65em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    transition: transform 0.3s ease;
+    border-radius: 15px 15px 15px 15px;
+      margin-left: 30%;
+    margin-top: 2%;
+
+}
+
+.boxDiv .box8
+{
+    flex: 1;
+    max-width: 190px;
+    height: 190px;
+    border: 0px solid;
+    border-radius: 4px;
+    box-shadow: 0px 8px 20px rgb(75, 71, 71);
+    text-align: center;
+    font-size: 0.65em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    transition: transform 0.3s ease;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 65%;
+    margin-top: -15%;
+}
+
+.boxDiv .box9
+{
+    flex: 1;
+    max-width: 130px;
+    height: 35px;
+    border: 0.2px solid;
+    border-radius: 4px;
+    background-color: #412919;
+    text-align: center;
+    font-size: 0.65em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    transition: transform 0.3s ease;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 87%;
+    margin-top: -15%;
+    color: white;
+    text-align: center;
+
+}
+
+
+.boxDiv .box10
+{
+    color: white;
+
+    flex: 1;
+    max-width: 100px;
+    height: 35px;
+    border: 0.2px solid white;
+    border-radius: 4px;
+    background-color: #412919;
+    text-align: center;
+    font-size: 0.65em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    transition: transform 0.3s ease;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 84%;
+    margin-top: 2%;
+  
+}
+.boxDiv.box11 h3
+{
+margin-right: -40%;
+}
+/* ##################### */
+/* /* .boxDiv .center
+{
+color: rgb(48, 190, 12);
+text-align: center;
+margin-top: -25%;
+margin-left: 20%;
+
+}   */
+
+.boxDiv .center h1
+{
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+.boxDiv .center h2
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+
+} */
+
+
+.fluidAIpart h5
+{
+color: rgb(62, 64, 66);
+
+}
+.fluidAIpart
+{
+    margin-top: 25%;
+    text-align: center;
+    color: white;
+    margin-top: -2%;
+}
+
+
+.allRow
+{
+    background: #000;
+}
+.row 
+{
+   display: flex;
+   gap: 10%; 
+   margin-left: 12%;
+   color: white;
+}
+.row .rowB img
+{
+
+    flex: 1;
+    /* max-width: 150px;
+    height: 250px; */
+    border: 0.2px solid white;
+    border-radius: 4px;
+    box-shadow: 0px 8px 20px rgb(75, 71, 71);
+    text-align: center;
+    font-size: 0.65em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    transition: transform 0.3s ease;
+    border-radius: 15px 15px 15px 15px; 
+}
+
+.row1 
+{
+   display: flex;
+   margin-left: 47%;
+   gap: 12%;
+   color: white;
+   margin-top: 3%;
+
+}
+
+.row1 .row1A img
+{
+
+    flex: 1;
+    
+    border: 0.2px solid white;
+    border-radius: 4px;
+    box-shadow: 0px 8px 20px rgb(75, 71, 71);
+    text-align: center;
+    font-size: 0.65em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    transition: transform 0.3s ease;
+    border-radius: 15px 15px 15px 15px; 
+    margin-top: 6%;
+}
+
+.row2
+{
+   display: flex;
+   margin-left: 12%;
+   gap: 10%;
+   color: white;
+   margin-top: 3%;
+
+}
+
+.row2 .row2B img
+{
+    flex: 1;
+    
+    border: 0.2px solid white;
+    border-radius: 4px;
+    box-shadow: 0px 8px 20px rgb(75, 71, 71);
+    text-align: center;
+    font-size: 0.65em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    transition: transform 0.3s ease;
+    border-radius: 15px 15px 15px 15px; 
+    margin-top: 6%;
+    color: white;
+
+}
+
+.row3
+{
+   display: flex;
+   margin-left: 47%;
+   gap: 12%;
+   color: white;
+   margin-top: 3%;
+
+}
+
+.row3 .row3A img
+{
+    color: white;
+
+    flex: 1;
+    border: 0.2px solid white;
+    border-radius: 4px;
+    box-shadow: 0px 8px 20px rgb(75, 71, 71);
+    text-align: center;
+    font-size: 0.65em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    transition: transform 0.3s ease;
+    border-radius: 15px 15px 15px 15px; 
+    margin-top: 6%;
+}
+
+.afterImage
+{
+    display: flex;
+    gap: 15%;
+    color: white;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.afterImage .afterImageA h1
+{
+    margin-top: 5%;
+
+}
+
+.afterImage .afterImageB
+{
+    margin-top: 8%;
+
+}
+
+.join
+{
+    display: flex;
+    gap: 20%;
+    color: white;
+    background: linear-gradient(to bottom, #000000, #000000, hsl(0, 0%, 0%),  #813706, #977965);
+
+}
+
+.join .joinA
+{
+    color: white;
+    margin-left: 10%;
+    margin-top: 6%;
+
+
+}
+
+.join .joinB
+{
+    color: white;
+    margin-top: 3%;
+
+}
+
+.last
+{
+    display: flex;
+    gap: 60%;
+    margin-left: 10%;
+}
+
+.last .lastA h2
+{
+    color: white;
+}
+
+.last .lastA h6
+{
+    color: rgb(99, 91, 91);
+}
+
+.last .lastB
+{
+    color: rgb(88, 92, 95);
+    display: flex;
+    gap: 10%;
+}
+
+.last .lastC
+{
+    color: rgb(88, 92, 95);
+
+}
+
+
+
+
+
+
